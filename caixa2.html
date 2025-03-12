@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Gruping Tags</title>
+  <style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+  }
+  header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgb(0, 0, 0, 0.315);
+  }
+  nav > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  nav > a:hover{
+    text-decoration: underline;
+  }
+  main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+  }
+  article{
+    background-color: lightgray;
+  }
+  article > aside{
+    background-color: rgb(165, 165, 165);
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+  }
+  footer > p{
+    margin: 0px;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assunto">
+      <p>Esportes Politica Tecnologia</p>
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Noticias sobre o nautico</h2>
+        <p>O Náutico vive um momento crítico na temporada:
+            não vence há quatro jogos, foi eliminado nas quartas
+            de final do Pernambucano, complicou-se na Copa do Nordeste
+            e enfrentará o Vitória pela segunda fase da Copa do Brasil,
+            na próxima semana. São seis dias até a partida, em que
+            mudanças devem acontecer e terão que ser cirúrgicas.</p>
+        <aside>
+          <p>artigo escrito por David.</p>
+        </aside>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desmvolvido por David Rodrigues</p>
+  </footer>
+  
+</body>
+</html>

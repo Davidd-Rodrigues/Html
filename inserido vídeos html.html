@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Viwport" content="width=device-width,initial-scale=1.0">
+  <title>video com HTML</title>
+</head>
+<body>
+  <h1>Inserindo videos hospedados localmente</h1>
+  <p>Este video esta hospedado em meu proprio servidor</p>
+  <video width="300" poster="imagem/praia.png" controls
+    autoplay loop>
+    <source src="midia/teste-1.mp4" type="video/mp4">
+    <source src="midia/teste.webm" type="video/webm">
+    <source src="midia/teste.mpv" type="video/m4v">
+      <P>Seu navegador nao tem compatibilidade com a exibicao
+    de videos.</P>
+  </video>
+  <h1>Inserindo video do youtube</h1>
+  <iframe width="300" height="315" src="https://www.youtube.com/embed/XQqDIcvJ-8Q?si=81jLHB6rJHo2baEP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h1>Inserindo video do Vimeo</h1>
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/267490452?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Character Animation Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>

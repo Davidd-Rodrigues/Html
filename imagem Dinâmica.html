@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Viwport" content="width=device-width,initial-scale=1.0">
+  <title>Midias em HTML</title>
+</head>
+<body>
+  <h1>imagem dinamica</h1>
+  <p>Tentando abrir esse site em varios dispositivos diferentes
+    ou simplismnte aumentando e diminuindo seu navegador.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-p.png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png">
+    <img src="imagens/imagem-g.png" alt="imagem flexível">
+  </picture>
+  <h1>Reproduzindo audio</h1>
+  <p>Vamos aprender a reproduzir audio em HTML.</p>
+  <audio preload="metadata" autoplay controls loop>
+    <source src="midia/matheusekauan-naosuportomais.mp3" type="audio/mpeg">
+    <source src="midia/matheusekauan-naosuportomais.ogg" type="audio/ogg">
+    <source src="midia/matheusekauan-naosuportomais.wav" type="audio/wav">
+    <p>Infelizmente seu navegador nao consegue reproduzir o audio.
+      <ahref="midia/matheusekauan-naosuportomais.mp3">Quique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+</body>
+</html>
